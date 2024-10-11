@@ -6,7 +6,7 @@ import { Header } from './components/Header/Header';
 import { IAppState } from './modal/modal';
 
 function App() {
-  const serverURL = 'https://ra-lifecycle-crud-backend.onrender.com';
+  const serverURL = 'https://ra-lifecycle-crud-backend-2.onrender.com'
   const [varForUpdate, setVarForUpdate] = useState<boolean>(true);
   const [app, setApp] = useState<IAppState>({
     value: '',
